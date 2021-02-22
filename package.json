@@ -1,7 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "* Create a Digital Clock using React using class Date.\r   * When Digital Clock is mounted a Digital Clock should update the state variable time with current Time.\r   * This Digital Clock should update the time variable regularly at an interval of 1 sec.\r   * When the component is unmounted then Digital Clock should be terminated to freeUp resources.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -49,5 +49,13 @@
     "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.0",
     "xml-js": "^1.6.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kranuj3122/React-Assignment-5---Digital-Clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kranuj3122/React-Assignment-5---Digital-Clock/issues"
+  },
+  "homepage": "https://github.com/kranuj3122/React-Assignment-5---Digital-Clock#readme"
 }
