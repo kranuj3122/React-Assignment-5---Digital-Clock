@@ -8,7 +8,9 @@ const App = () => {
     setTime(currTime);
   };
   useEffect(() => {
-    let timer = setInterval(updateTime, 1000);
+    let timer = setInterval(()=>{
+      updateTime();
+    }, 1000);
     return () => {
       clearInterval(timer);
     };
