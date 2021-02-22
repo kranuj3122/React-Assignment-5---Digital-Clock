@@ -8,7 +8,11 @@ const App = () => {
       setTime(currTime);
   };
   setInterval(updateTime,1000);
-  return <h1 id="time">{time}</h1>;
+  return (
+    <div className="Clock">
+      <h3 id="time">{time}</h3>
+    </div>
+  );
 };
 
 export default App;
